@@ -27,7 +27,7 @@ public class CarControllerIT {
 	HttpHeaders headers = new HttpHeaders();
 
 	@Test
-	public void testRetrieveStudentCourse() throws JSONException {
+	public void testRetrieveCar() throws JSONException {
 
 		HttpEntity<String> entity = new HttpEntity<String>(null, headers);
 
