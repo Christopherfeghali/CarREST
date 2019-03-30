@@ -23,7 +23,7 @@ public class Car
 		{
 			this.Manufacturer = Manufacturer;
 		}
-		public String carName() 
+		public String getcarName() 
 		{
 			return carName;
 		}
@@ -31,6 +31,7 @@ public class Car
 		{
 			this.carName = carName;
 		}
+		
 		
 
 }
